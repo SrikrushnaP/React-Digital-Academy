@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file here -->
+    <style>
+        article, section, aside {
+            background-color: #ffffff;
+            margin: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            display: flex;
+            justify-content: space-between;
+        }
+        article, aside {
+            flex-basis: 48%;
+        }
+        article {
+            background-color: #f9f9f9;
+        }
+        aside {
+            background-color: #fcfcfc;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+    <div class="container">
+        <div class="logo">GLOBALLOGIC</div>
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="task1.html">TASK 1</a></li>
+            <li><a href="task2.html" class="active">SEMANTIC ELEMENTS</a></li>
+            <li><a href="task3.html">TIME TABLE</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<main>
+    <div class="container main-container">
+        <section>
+            <article>
+                <h2>Article Title</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec nulla vitae libero maximus dapibus. Proin id tincidunt quam. Aenean non malesuada lacus. Sed dignissim ante sed felis tincidunt, in vehicula felis aliquet.</p>
+                <br>
+                <p>Integer non turpis nec eros malesuada laoreet. Cras feugiat sem eget nunc lobortis aliquam. Sed nec justo sapien.</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, neque totam optio, ullam assumenda excepturi saepe, doloremque at corrupti blanditiis quidem dolore a cum quia consequatur quaerat sapiente. Adipisci optio dicta minus debitis nihil quia accusantium voluptas quae reprehenderit facilis, assumenda ex, ut eligendi, aperiam quaerat corporis! Veniam, ipsa sapiente!</p>
+            </article>
+    
+            <aside>
+                <h2>Related Links</h2>
+                <ul>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                    <li><a href="#">Link 1</a></li>
+                    <li><a href="#">Link 2</a></li>
+                    <li><a href="#">Link 3</a></li>
+                </ul>
+            </aside>
+        </section>
+    </div>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 GlobalLogic. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>

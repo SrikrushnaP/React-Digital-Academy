@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file here -->
+</head>
+<body>
+
+<!-- Navigation Bar -->
+<nav>
+    <div class="container">
+        <div class="logo">GLOBALLOGIC</div>
+        <ul class="menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="task1.html" class="active">TASK 1</a></li>
+            <li><a href="task2.html">SEMANTIC ELEMENTS</a></li>
+            <li><a href="task3.html">TIME TABLE</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<main>
+    <div class="container main-container">
+        <p>a.Create a hyperlink within a document.</p>
+			<hr>
+			<a href="https://globallogic.com/">Globallogic</a>
+			<p>b.Download a file when clicking on the link.</p>
+			<hr>
+			<a download href="https://picsum.photos/id/1/200/300.jpg">Download 2</a> 
+			<p>c.Specify the language of the document in a given link. </p>
+			<hr>
+			<a href="http://www.globallogic.com/" hreflang="en">GlobalLogic</a>
+			<p>d.Create a hyperlink to take you to another part of the same HTML document?</p>
+			<hr>
+			<a href="http://www.globallogic.com/" target="_blank">GlobalLogic with Target</a>
+			<p>e. Create a link with a media attribute. </p>
+			<hr>
+			<p>
+				The media attribute specifies what media/device the target resource is optimized for. <br>
+				This attribute is mostly used with CSS style sheets to specify different styles for different media types.<br>
+			</p>
+			<p>
+				f. Create a nofollow link.</p>
+			<hr>
+			<a rel="nofollow"
+				href="http://www.globallogic.com/">  
+				Nofollow link  
+			</a>
+			<p>A nofollow link s used by Google to specify that the Google search spider should not follow that link and mostly used for 		
+				paid links. <br> Nofollow links are links with a rel=”nofollow” HTML tag applied to them. The nofollow tag tells search 
+				engines to ignore that link. The nofollow links do not pass PageRank they likely don’t impact search engine rankings.</p>
+			<p>g. How to open a linked document in a separate browser tab?</p>
+			<hr> 
+			<p>If you set target to "_blank" , the URL will usually open in a new tab.</p>
+			<p>h. Create a link which takes you to that section on the same page.(i.e.Top of the page button).</p>
+			<hr>   
+			<a href="#topscrool">Navigate to top</a> 
+    </div>
+</main>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2024 GlobalLogic. All rights reserved.</p>
+    </div>
+</footer>
+
+</body>
+</html>
