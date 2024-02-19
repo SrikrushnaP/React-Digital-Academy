@@ -1,0 +1,66 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px; /* Added padding for left and right */
+    overflow: hidden;
+}
+
+.main-container {
+    padding: 0 8%; /* Added padding-left for main content */
+}
+
+.task-content{
+    padding: 20px;
+}
+
+.logo {
+    float: left;
+    font-size: large;
+}
+
+.menu {
+    float: right;
+}
+
+.menu li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the main content */
+main {
+    padding: 50px 0;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.active{
+    background-color: #f37037;
+}
+li a:hover{
+    background-color: #f37037;
+}

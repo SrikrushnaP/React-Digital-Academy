@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 2 | 19th Feb 2024 - Monday</title>
+    <style type="text/css">
+		li{
+			list-style:none;
+			margin-bottom:9px;
+		}
+		ul li span{
+			float:left;
+			width:150px;
+		}
+		ul li label{
+			float:right;
+			margin-left: 5px;
+			color: red;
+		}
+		[type="submit"], [type="reset"], [type="button"]{
+            border-radius: 10px;
+		}
+		[type="reset"]{
+			margin-left:150px;
+		}
+		[type="submit"]:hover{
+			background-color:green;
+		}
+		[type="reset"]:hover{
+			background-color:pink;
+		}
+		h3{
+			text-align: center;
+		}
+		.container{
+			padding: 30px 0px;
+			width: 550px;
+			background-color: #f0f0f0;
+		}
+	</style>
+</head>
+
+<body>
+    <!-- Main Content -->
+    <main>
+        <div class="container">
+            <ul>
+                <li><span>Title</span></li>
+                <li><input type="text" placeholder="Select one of your own"></li>
+            
+                <li><span>Name </span></li>
+                <li><input type="text" placeholder="John Doe"></li>
+
+                <li><span>Phone Number</span></li>
+                <li><input type="tel" placeholder="+1 23456789"> (Optional)</li>
+
+                <li><span>Email Address </span></li>
+                <li><input type="emial" placeholder="add@hjahja.com"></li>
+
+                <li><span>Your Website </span></li>
+                <li><input type="url" placeholder="www.yourwebsite.com"> (Optional)</li>
+
+                <li><span>Nr. of items to order </span></li>
+                <li><input type="number" min="1" max="10" value="6"> (1-10)</li>
+
+                <li><span>Length </span></li>
+                <li><input type="range" > 1m (in 10cm incremants)</li>
+                
+                <li><span>Delivery Date </span></li>
+                <li><input type="date" min="2010-12-16"> (Minimum 16 December 2010)</li>
+            
+                <li><span>Delivery Time </span></li>
+                <li><input type="time" step="1800"> (In 30 minutes Increments)</li>
+
+                <li><span>Color Of The Item </span></li>
+                <li><input type="color" value="#ff0000"> (Default Red)</li>
+                
+                <li>
+                    <input type="reset" value="Reset">
+                    <input type="submit" value="Register">
+                </li>
+                
+                
+            </ul>
+            <ul class="search-box">
+                <li><span>Search </span></li>
+                <li><input type="search"> <input type="button" value="Go"></li>
+            </ul>
+        </div>
+        <button onclick="history.back()">Back to Home</button>
+    </main>
+
+    
+
+</body>
+
+</html>
