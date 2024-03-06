@@ -1,3 +1,45 @@
-#container{
-    background-color: yellow;
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0 20px;
+    border: 1px solid gray;
+}
+
+.nav-items > ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items > ul > li {
+    padding: 10px;
+}
+.nav-items > ul > li:hover {
+    cursor: pointer;
+    color: #888888;
+}
+
+#title{
+    color:#888888;
+}
+.title-link{
+    text-decoration: none;
+}
+
+
+/* Card style */
+.card{
+    width: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+}
+.card > img{
+    width: 100%;
+}
+
+
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
 }
